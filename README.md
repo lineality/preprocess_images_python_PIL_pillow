@@ -5,6 +5,8 @@ It is possible to preprocess images in python using just PIL/Pillow, the python 
 e.g. Some image preprocessing using very resource and memory intensive (software development, NOT DEPLOYMENT) tools such as keras, whereas deployment requires slim tools such as TFlite and small python packages. 
 
 ```
+from PIL import Image
+
 #################################
 # PIL/Pillow image preprocessing 
 #################################
