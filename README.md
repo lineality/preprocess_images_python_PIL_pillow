@@ -4,7 +4,7 @@
 It is possible to preprocess images in python using just PIL/Pillow, the python image library.
 e.g. Some image preprocessing using very resource and memory intensive (software development, NOT DEPLOYMENT) tools such as keras, whereas deployment requires slim tools such as TFlite and small python packages. 
 
-
+```
 #################################
 # PIL/Pillow image preprocessing 
 #################################
@@ -37,3 +37,4 @@ input_data = preprocessed_img
 
 # type cast to float32
 input_data = input_data.astype('float32')
+```
