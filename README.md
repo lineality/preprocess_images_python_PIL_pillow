@@ -11,7 +11,7 @@ e.g. Some image preprocessing using very resource and memory intensive (software
 
 # load and resize image file
 """
-equivilent of this from Keras:
+equivalent of this from Keras:
 
 img = image.load_img(img_path, target_size=(224, 224))
 """
@@ -20,7 +20,7 @@ img = img.resize((224, 224))
 
 # image -> array
 """
-equivilent of this from Keras:
+equivalent of this from Keras:
 
 img_array = image.img_to_array(img)
 """
